@@ -55,7 +55,7 @@
             }
             
             function moveRight(){
-               imgObj.style.left = left + 10 + 'px';
+               imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
                animate = setTimeout(moveRight,50); // call moveRight in 50msec
             }
             
