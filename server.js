@@ -19,8 +19,12 @@ app.get('/hash/:input', function (req, res) {
     res.send(hashedString);
 });
 
+
 app.get('/article-one' , function (req, res) {
     res.send('Article one will be served here')
+});
+app.get('/abcde' , function (req, res) {
+    res.send('This is a new url made by me');
 });
 
 app.get('/ui/style.css', function (req, res) {
